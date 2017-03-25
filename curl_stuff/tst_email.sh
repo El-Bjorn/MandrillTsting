@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#/usr/bin/curl -X POST https://mandrillapp.com/api/1.0/users/ping.json?key=LE3I1ine5EoYJ_hQZQXr_Q 
+#/usr/bin/curl -H "Content­Type: application/json" -X POST ­d '{"game":{"game_center_id": "99999"}}' http://murmuring-island-3630.herokuapp.com/games.json #, "turn_id": 3, "image_id": 3, "creator_id": 3, "game_type": "spell", "answer": "doe, a deer", "shared_with_all":"true"}, "clues": [{"content":"clue1", "clue_type":"Hint"}, {"content":"clue2", "clue_type":"Hint"}, {"content":"clue3", "clue_type":"Hint"}], "friends":[{"id": 3}, {"game_center_id":"01234"}] }'
+
+#/usr/bin/curl -H "Content­Type: application/json" -X POST https://mandrillapp.com/api/1.0/messages/send.json -d '{ "key": "LE3I1ine5EoYJ_hQZQXr_Q", "message": { "html": "<p>Example HTML content</p>", "text": "Example text content", "subject": "example subject", "from_email": "message.from_email@example.com", "from_name": "Example Name", "to": [ { "email": "bjorn@builtlight.org", "name": "ME!!!", "type": "to" } ], "headers": { "Reply-To": "message.reply@example.com" } } }'
+/usr/bin/curl -H "Content­Type: application/json" -X POST https://mandrillapp.com/api/1.0/messages/send.json -d '{ "key": "LE3I1ine5EoYJ_hQZQXr_Q", "message": {"text": "Jack likes tall redheads", "subject": "Jack like redheads", "from_email": "message.from_email@example.com", "from_name": "Schunk app quote request", "to": [ { "email": "jack@builtlight.org", "name": "Senor Jack", "type": "to" } ], "headers": { "Reply-To": "jomama@example.com" } } }'
